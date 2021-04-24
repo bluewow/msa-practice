@@ -3,7 +3,9 @@ package com.example.chapter02version3.service;
 import com.example.chapter02version3.domain.Multiplication;
 import com.example.chapter02version3.domain.MultiplicationResultAttempt;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MultipleServiceImpl implements  MultipleService {
     private RandomGeneratorService randomGeneratorService;
 
